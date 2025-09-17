@@ -1,67 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="index">
 <head>
-    <title>Activiy</title>
-    <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <section class="card">
-            <h1 class="schedule">My Schedule</h1>
-            <table>
-                <tr>
-                    <th width="100px"></th>
-                    <th>Monday</th>
-                    <th>Tuesday</th>
-                    <th>Thursday</th>
-                    <th>Friday</th>
-                    <th>Saturday</th>
-                </tr>
-                <tr>
-                    <th rowspan="2">Time & Subject</th>
-                    <td><b>8:30-11:30 Philosophy</b></td>
-                    <td><b>9:00-11:30 P.E</b></td>
-                    <td><b>12:00-1:00 Homeroom</b></td>
-                    <td><b>10:00-11:30 OralCom</b></td>
-                    <td><b>10:00-11:30 OralCom</b></td>
-                </tr>
-                <tr>
-                    <td><b>1:00-4:00 ComProg1&2</b></td>
-                    <td><b>1:00-4:00 ComProg1&2</b></td>
-                    <td><b>1:00-4:00 MIL</b></td>
-                    <td><b>1:00-4:00 GenMath</b></td>
-                    <td><b>1:00-6:00 21st Century Literature</b></td>
-                </tr>
-            </table>
-        </section>
-        <section class="card">
-            <div class="iframeContainer">
-                <iframe src="AboutMe.html" frameborder="0"></iframe>
-            </div>
-        </section>
-        <section class="card">
-            <div class="contact-form">
-                <h1>Contact Me</h1>
-                <form>
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" required placeholder=" ">
-                        <label for="name">Name</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" required placeholder=" ">
-                        <label for="email">Email</label>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" required placeholder=" "></textarea>
-                       <label for="message">Message</label>
-                    </div>
-        
-                    <button type="submit" class="submit-btn">SEND</button>
-                </form>
-            </div>
-        </section>
+  <a href="#main-content" class="skip-to-content">Skip to content</a>
+  
+  <header class="fade-down">
+    <div class="logo-container">
+      <img src="logo.png" alt="Rain Manlangit Logo" class="site-logo" width="40" height="40">
+      <h1 class="logo">CCC</h1>
     </div>
-    <footer>
-        <button><a href="AboutMe.html">About Me</a></button>
-        <button><a href="https://www.sti.edu">STI Colleges</a></button>
-    </footer>
+    <nav aria-label="Main navigation">
+      <a href="video.html" class="nav-button">Video</a>
+      <a href="audio.html" class="nav-button">Audio</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="intro fade-up">
+      <div class="intro-text">
+        <h2>Hello, I'm <span class="highlight">Rain Manlangit</span></h2>
+        <p>Rain O. Manlangit of group CCC from G11 MAWD 103</p>
+        <div class="buttons">
+          <a href="video.html" class="action-button">Vlog</a>
+          <a href="audio.html" class="action-button">Favorite Song</a>
+        </div>
+      </div>
+      <div class="intro-graphic" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <footer class="fade-up">
+    <p>©Rain Manlangit MAWD103</p>
+  </footer>
 </body>
 </html>
